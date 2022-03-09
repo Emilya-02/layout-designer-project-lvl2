@@ -57,6 +57,7 @@ p {
     font-family: Roboto ,serif;
     text-transform: uppercase;
     width: 100%;
+    max-width: 1200px;
     padding-left: 120px;
     padding-right: 120px;
 }
@@ -108,7 +109,9 @@ input {
     background: #3C3B3D;
     height: 25px;
     border-radius: 50px;
+    box-sizing: border-box;
     border: none;
+    max-width: 248px;
     padding: 5px 180px 5px 10px;
 }
 
@@ -123,10 +126,27 @@ input::placeholder {
     background-image: url('images/banner.png');
     background-position: center;
     background-size: cover;
+    box-sizing: border-box;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
     min-width: 100%;
+    max-height: 750px;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-container h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main-container h2 {
+    margin-top: 0;
 }
 
 .flex-container {
@@ -143,9 +163,16 @@ input::placeholder {
 .flex-input {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
+
+@media (max-width: 414px){
+    .flex-input {
+        flex-wrap: nowrap;
+    }
+}
+
 
 .flex-input input {
     border: solid 2px #cacaca;
@@ -572,7 +599,7 @@ hr {
     text-align: center;
 }
 
-@media (max-width: 416px) {
+@media (max-width: 414px) {
     h1 {
         font-size: 30px;
         line-height: 45px;
