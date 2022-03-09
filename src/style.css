@@ -495,12 +495,28 @@ button {
     margin-bottom: 65px;
 }
 
+@media (max-width: 415px) {
+    .news-item {
+        flex-wrap: wrap;
+    }
+}
+
 .news-item:nth-child(2n+1) .news-text {
     margin-right: 50px;
 }
 
 .news-item:nth-child(2n+2) .face {
     margin-right: 50px;
+}
+
+@media (max-width: 415px) {
+    .news-item:nth-child(2n+1) .news-text {
+        margin-right: 0;
+    }
+    
+    .news-item:nth-child(2n+2) .face {
+        margin-right: 0;
+    }
 }
 
 .last {
@@ -524,6 +540,13 @@ button {
 .news-item > img {
     height: 286px;
     width: 575px;
+}
+
+@media (max-width: 415px) {
+    .face {
+        max-width: 374px;
+        max-height: 168px;
+    }
 }
 
 .news h2 {
@@ -559,14 +582,17 @@ button {
     font-size: 16px;
 }
 
-.underline-none {
-    text-decoration: none;
-}
-
 /* app */
 .app {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.app-container {
     padding-top: 100px;
-    margin-bottom: 100px;
 }
 
 .app h2 {
@@ -575,18 +601,17 @@ button {
 
 .app-flex {
     display: flex;
-    flex-wrap: wrap-reverse;
-    padding-left: 120px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
-.text-and-button {
+.text-and-link {
     width: 600px;
-    max-width: 100%;
-    margin-right: 144px;
     font-size: 16px;
+    line-height: 24px;
 }
 
-.app button {
+.app .btn {
     background: #95390C;
     border-radius: 32px;
     color: #fff;
