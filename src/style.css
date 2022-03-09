@@ -337,14 +337,12 @@ button {
     background: url(./images/subscribe_1.png);
     background-position: center;
     background-size: cover;
-    margin-right: 46px;
 }
 
 .bg-standart {
     background: url(./images/subscribe_2.png);
     background-position: center;
     background-size: cover;
-    margin-right: 46px;
 }
 
 .bg-premium {
@@ -360,7 +358,8 @@ button {
 }
 
 .pricing-item {
-    width: 368,6px;
+    flex-grow: -1;
+    width: calc(1100px/3);
     max-height: 615px;
     box-sizing: border-box;
     padding-top: 50px;
