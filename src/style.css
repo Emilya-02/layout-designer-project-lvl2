@@ -374,6 +374,7 @@ button {
     line-height: 36px;
     margin-bottom: 200px;
     margin-top: 0;
+    margin-right: 4px;
 }
 
 .pricing-value {
@@ -403,7 +404,7 @@ button {
     box-sizing: border-box;
     border-radius: 5px;
     height: 66px;
-    width: 100%;
+    width: 318.66px;
     margin-bottom: 64px;
     margin-top: 40px;
     text-decoration: none;
