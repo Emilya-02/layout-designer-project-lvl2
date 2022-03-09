@@ -324,6 +324,7 @@ button {
         padding-left: 0;
         padding-right: 0;
         min-width: 100%;
+        max-height: 2220px;
     }
 }
 
@@ -338,7 +339,7 @@ button {
 }
 
 @media (max-width: 415px) {
-    .pricing-item h2 {
+    .pricing-container h2 {
         margin-left: 20px;
         margin-right: 20px;
     }
