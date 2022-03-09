@@ -399,6 +399,13 @@ button {
     margin-right: 4px;
 }
 
+@media (max-width: 415px) {
+    .pricing-item h3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
 .pricing-value {
     font-size: 64px;
     line-height: 64px;
