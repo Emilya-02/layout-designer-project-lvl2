@@ -282,10 +282,6 @@ input::placeholder {
         margin-bottom: 1.5rem;
         box-sizing: border-box;
     }
-
-    /* .flex-input input:last-child {
-        margin-top: 0;
-    } */
 }
 
 .green-button {
@@ -313,26 +309,43 @@ button {
 
 /* pricing */
 
-.pricing {
+#pricing {
     padding-top: 100px;
     text-align: center;
-    margin-left: 120px;
-    margin-right: 120px;
 }
 
-.bg-free-1 {
+.pricing-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricing-container h2 {
+    margin-top: 100px;
+    margin-bottom: 45px;
+}
+
+.pricing-container > p {
+    text-align: center;
+    margin-top: 43px;
+    margin-bottom: 0;
+}
+
+.bg-free {
     background: url(./images/subscribe_1.png);
     background-position: center;
     background-size: cover;
+    margin-right: 46px;
 }
 
-.bg-free-2 {
+.bg-standart {
     background: url(./images/subscribe_2.png);
     background-position: center;
     background-size: cover;
+    margin-right: 46px;
 }
 
-.bg-free-3 {
+.bg-premium {
     background: url(./images/subscribe_3.png);
     background-position: center;
     background-size: cover;
@@ -340,16 +353,17 @@ button {
 
 .pricing-flex {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .pricing-item {
+    width: 368,6px;
+    box-sizing: border-box;
     padding-top: 50px;
     padding: 1.5rem;
     border-radius: 1rem;
-    max-width: 374px;
+    text-align: center;
 }
 
 .pricing-item h3 {
@@ -376,6 +390,10 @@ button {
     width: 100%;
     margin-bottom: 64px;
     text-emphasis: none;
+}
+
+.pricing-item .btn {
+    font-size: 16px;
 }
 
 .pricing-footer {
