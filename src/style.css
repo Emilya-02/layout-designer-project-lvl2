@@ -309,19 +309,16 @@ button {
 
 /* pricing */
 
-#pricing {
-    padding-top: 100px;
-    text-align: center;
-}
-
 .pricing-container {
+    padding-top: 100px;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .pricing-container h2 {
-    margin-top: 100px;
+    margin-top: 0;
     margin-bottom: 45px;
 }
 
