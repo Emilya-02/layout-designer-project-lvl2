@@ -310,16 +310,14 @@ button {
 /* pricing */
 
 .pricing {
-    text-align: center;
-    min-width: 100%;
-    padding-top: 100px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pricing-container {
-    max-width: 1240px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 20px;
+    padding-top: 100px;
+    text-align: center;
 }
 
 .pricing-container h2 {
