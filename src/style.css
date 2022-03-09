@@ -156,7 +156,8 @@ p {
 
 .logo p {
     font-size: 11px;
-    margin-bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
     margin-right: 90px;
 }
 
@@ -199,8 +200,10 @@ input::placeholder {
 
 @media (max-width: 415px) {
     .description {
+        padding-top: 250px;
         padding-left: 20px;
         padding-right: 20px;
+        max-height: 900px;
     }
 }
 
@@ -219,8 +222,10 @@ input::placeholder {
     margin-top: 0;
 }
 
-.main-container p {
-    margin-bottom: 0;
+@media (max-width: 415px) {
+    .main-container p {
+        margin-bottom: 0;
+    } 
 }
 
 .flex-container {
