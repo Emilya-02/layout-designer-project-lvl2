@@ -526,6 +526,11 @@ button {
     width: 575px;
 }
 
+.news h2 {
+    margin-bottom: 48px;
+    margin-top: 0;
+}
+
 .news h3 {
     margin-top: 0;
     margin-bottom: 30px;
