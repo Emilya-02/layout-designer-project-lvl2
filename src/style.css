@@ -317,6 +317,16 @@ button {
     padding-right: 20px;
 }
 
+@media (max-width: 415px) {
+    .pricing {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+        min-width: 100%;
+    }
+}
+
 .pricing-container {
     padding-top: 100px;
     text-align: center;
@@ -357,6 +367,13 @@ button {
     justify-content: space-between;
 }
 
+@media (max-width: 415px) {
+    .pricing-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 .pricing-item {
     flex-grow: -1;
     width: calc(1100px/3);
@@ -366,6 +383,12 @@ button {
     padding: 1.5rem;
     border-radius: 1rem;
     text-align: center;
+}
+
+@media (max-width: 415px) {
+    .pricing-item:not(:last-child) {
+        margin-bottom: 33px;
+    }
 }
 
 .pricing-item h3 {
@@ -750,20 +773,6 @@ hr {
 }
 
 @media (max-width: 415px) {    
-    .pricing {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .pricing-item {
-        margin-top: 26px;
-        margin-bottom: 26px;
-    }
-
-    .pricing-item:first-child {
-        margin-top: 0;
-    }
-
     .news-item:nth-child(2n+2) {
         display: flex;
         flex-wrap: wrap;
