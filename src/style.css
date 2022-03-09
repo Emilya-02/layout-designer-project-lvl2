@@ -430,6 +430,13 @@ button {
     margin-right: 4px;
 }
 
+@media (max-width: 415px) {
+    .pricing-value {
+        font-size: 62px;
+        line-height: 62px;
+    }
+}
+
 .count {
     font-size: 32px;
     vertical-align: text-top;
