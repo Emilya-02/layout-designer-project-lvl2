@@ -529,6 +529,12 @@ button {
     }
 }
 
+@media (max-width: 415px) {
+    .news.body p {
+        margin-bottom: 24px;
+    }
+}
+
 .last {
     margin-bottom: 0;
 }
@@ -551,8 +557,13 @@ button {
 }
 
 @media (max-width: 415px) {
+    .news-author {
+        height: 19px;
+    }
     .news-author p {
         line-height: 19px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }
 
@@ -586,7 +597,7 @@ button {
 }
 
 .news a {
-    display: inline;
+    display: block;
 }
 
 .news .btn {
@@ -602,6 +613,12 @@ button {
 
 .news p {
     font-size: 16px;
+}
+
+@media (max-width: 415px) {
+    .news .btn {
+        margin-top: 0;
+    }
 }
 
 /* app */
