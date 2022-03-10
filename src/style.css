@@ -705,6 +705,12 @@ button {
     padding-bottom: 74px;
 }
 
+@media (max-width: 415px) {
+    .footer-top {
+        padding-left: 20px;
+    }
+}
+
 .footer-item {
     display: flex;
     flex-direction: column;
@@ -766,12 +772,28 @@ hr {
     padding-bottom: 2rem;
 }
 
+@media (max-width: 415px) {
+    .footer-bottom {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        padding-left: 20px;
+        padding-bottom: 8px;
+    }
+}
+
 .footer-bottom a {
     margin-right: 16px;
     color: #E0E0E0;
     font-size: 16px;
     line-height: 24px;
     text-decoration: none;
+}
+
+@media (max-width: 415px) {
+    .footer-bottom a {
+        margin-bottom: 16px;
+    }
 }
 
 /* description-2 */
