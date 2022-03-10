@@ -692,6 +692,7 @@ button {
 
 .footer {
     background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+    padding-bottom: 17px;
 }
 
 .footer-top {
@@ -701,7 +702,7 @@ button {
     align-items: flex-start;
     padding-top: 3rem;
     padding-left: 120px;
-    padding-bottom: 65px;
+    padding-bottom: 74px;
 }
 
 .footer-item {
@@ -725,6 +726,7 @@ button {
 }
 
 .footer-item p {
+    width: 100%;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -749,6 +751,8 @@ button {
 }
 
 hr {
+    margin-top: 0;
+    margin-bottom: 8px;
     border: 1px solid #CACACA;
 }
 
@@ -763,7 +767,7 @@ hr {
 }
 
 .footer-bottom a {
-    padding-right: 16px;
+    margin-right: 16px;
     color: #E0E0E0;
     font-size: 16px;
     line-height: 24px;
