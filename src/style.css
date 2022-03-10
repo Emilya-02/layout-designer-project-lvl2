@@ -785,7 +785,7 @@ button {
 
 hr {
     margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom: 40px;
     border: 1px solid #CACACA;
 }
 
@@ -807,6 +807,7 @@ hr {
         padding-left: 20px;
         padding-right: 36px;
         padding-bottom: 18px;
+        padding-top: 0;
     }
 }
 
