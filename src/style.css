@@ -822,6 +822,9 @@ hr {
         margin-bottom: 16px;
         min-width: 100%;
     }
+    .footer-item:nth-child(3) a {
+        line-height: 23px;
+    }
 }
 
 /* description-2 */
