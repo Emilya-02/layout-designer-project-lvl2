@@ -825,6 +825,7 @@ hr {
     }
     .footer-item:nth-child(3) a {
         line-height: 22px;
+        margin-right: 0;
     }
 
     .footer-item:nth-child(3) a:last-child {
