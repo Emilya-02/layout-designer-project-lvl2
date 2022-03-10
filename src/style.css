@@ -708,6 +708,17 @@ button {
 @media (max-width: 415px) {
     .footer-top {
         padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+    }
+
+    .footer-top h2 {
+        margin-bottom: 16px;
+        margin-top: 30px;
+    }
+
+    .footer-top h2:last-child {
+        margin-top: 0;
     }
 }
 
@@ -721,12 +732,14 @@ button {
 }
 
 .footer-item a,
-.footer-bottom a {
+.footer-bottom a,
+.footer-item > p {
     font-size: 15px;
     line-height: 24px;
 }
 
-.footer-item > a {
+.footer-item > a,
+.footer-item > p {
     margin-top: 1px;
     margin-bottom: 1px;
 }
