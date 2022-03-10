@@ -785,7 +785,7 @@ button {
 
 hr {
     margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom: 0;
     border: 1px solid #CACACA;
 }
 
@@ -804,6 +804,7 @@ hr {
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: flex-start;
+        padding-top: 40px;
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 18px;
@@ -832,9 +833,9 @@ hr {
         margin-bottom: 4px;
     }
 
-    .subscription a {
-        display: flex;
-        align-items: center;
+    .subscription img {
+        margin-top: auto;
+        margin-bottom: auto;
     }
 }
 
