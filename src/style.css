@@ -827,8 +827,8 @@ hr {
     }
 
     .footer-item:nth-child(3) a:last-child {
-        line-height: 22px;
-        margin-bottom: 2px;
+        line-height: 20px;
+        margin-bottom: 4px;
     }
 }
 
