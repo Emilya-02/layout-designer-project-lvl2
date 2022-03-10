@@ -597,7 +597,13 @@ button {
 }
 
 .news a {
-    display: block;
+    display: inline;
+}
+
+@media (max-width: 415px) {
+    .news a {
+        display: block;
+    }
 }
 
 .news .btn {
