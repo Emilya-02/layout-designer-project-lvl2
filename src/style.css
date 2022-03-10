@@ -641,15 +641,13 @@ button {
 }
 
 .app h2 {
+    text-align: center;
     margin-top: 0;
+    margin-bottom: 48px;
 } 
 
 .app-container {
     padding-top: 100px;
-}
-
-.app h2 {
-    text-align: center;
 }
 
 .app-flex {
