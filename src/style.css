@@ -831,6 +831,11 @@ hr {
         line-height: 20px;
         margin-bottom: 4px;
     }
+
+    .subscription a {
+        display: flex;
+        align-items: center;
+    }
 }
 
 /* description-2 */
