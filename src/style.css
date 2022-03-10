@@ -504,7 +504,7 @@ button {
 @media (max-width: 415px) {
     .news-item {
         flex-wrap: wrap;
-        margin-bottom: 60px;
+        margin-bottom: 62px;
     }
 
     .news-item:last-child {
@@ -531,7 +531,7 @@ button {
 }
 
 @media (max-width: 415px) {
-    .news.body p {
+    .news-body p {
         margin-bottom: 24px;
     }
 }
