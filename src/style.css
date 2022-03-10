@@ -488,6 +488,12 @@ button {
     padding-top: 100px;
 }
 
+@media (max-width: 415px) {
+    .news-container {
+        margin-top: 24px;
+    }
+}
+
 .news-item {
     display: flex;
     flex-wrap: nowrap;
@@ -498,6 +504,10 @@ button {
 @media (max-width: 415px) {
     .news-item {
         flex-wrap: wrap;
+    }
+
+    .news-item:last-child {
+        flex-wrap: wrap-reverse;
     }
 }
 
@@ -546,6 +556,7 @@ button {
     .face {
         max-width: 374px;
         max-height: 168px;
+        margin-bottom: 50px;
     }
 }
 
