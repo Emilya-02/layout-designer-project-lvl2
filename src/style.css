@@ -711,16 +711,7 @@ button {
         padding-right: 20px;
     }
 
-    .footer-top h2 {
-        margin-bottom: 16px;
-        margin-top: 30px;
-    }
-
-    .footer-top h2:last-child {
-        margin-top: 0;
-    }
-
-    .footer-top h2:first-child {
+    .first-h2 {
         margin-top: 15px;
     }
 }
@@ -776,6 +767,19 @@ button {
     width: 270px;
     margin-bottom: 15px;
     text-align: start;
+}
+
+@media (max-width: 415px) {
+
+    .footer-top h2 {
+        margin-bottom: 16px;
+        margin-top: 30px;
+        min-width: 100%;
+    }
+
+    .footer-top .first-h2 {
+        margin-top: 15px;
+    }
 }
 
 hr {
