@@ -544,6 +544,9 @@ button {
 }
 
 .news-author {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
     margin-bottom: 48px;
 }
 
@@ -555,7 +558,7 @@ button {
 @media (max-width: 415px) {
     .face {
         max-width: 374px;
-        max-height: 168px;
+        max-height: 186px;
         margin-bottom: 50px;
     }
 }
@@ -568,10 +571,6 @@ button {
 .news h3 {
     margin-top: 0;
     margin-bottom: 30px;
-}
-
-.news h4 {
-    display: inline;
 }
 
 .news a {
