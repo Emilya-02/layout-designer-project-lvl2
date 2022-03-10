@@ -655,11 +655,23 @@ button {
     flex-wrap: nowrap;
 }
 
+@media (max-width: 415px) {
+    .app-flex {
+        flex-wrap: wrap-reverse;
+    }
+}
+
 .text-and-link {
     width: 600px;
     font-size: 16px;
     line-height: 24px;
     margin-right: 144px;
+}
+
+@media (max-width: 415px) {
+    .text-and-link {
+        margin-right: 0;
+    }
 }
 
 .app .btn {
