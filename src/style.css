@@ -709,7 +709,6 @@ button {
     .footer-top {
         padding-left: 20px;
         padding-right: 20px;
-        width: 100%;
     }
 
     .footer-top h2 {
@@ -719,6 +718,10 @@ button {
 
     .footer-top h2:last-child {
         margin-top: 0;
+    }
+
+    .footer-top h2:first-child {
+        margin-top: 15px;
     }
 }
 
@@ -731,9 +734,15 @@ button {
     margin-right: 40px;
 }
 
+@media (max-width: 415px) {
+    .footer-item {
+        min-width: 100%;
+    }
+}
+
 .footer-item a,
 .footer-bottom a,
-.footer-item > p {
+.footer-item p {
     font-size: 15px;
     line-height: 24px;
 }
@@ -791,6 +800,7 @@ hr {
         flex-wrap: nowrap;
         align-items: flex-start;
         padding-left: 20px;
+        padding-right: 20px;
         padding-bottom: 8px;
     }
 }
@@ -806,6 +816,7 @@ hr {
 @media (max-width: 415px) {
     .footer-bottom a {
         margin-bottom: 16px;
+        min-width: 100%;
     }
 }
 
