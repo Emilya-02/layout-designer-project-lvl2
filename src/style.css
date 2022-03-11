@@ -955,6 +955,10 @@ hr {
     width: 545px;
 }
 
+.mt-0 {
+    margin-top: 0;
+}
+
 .popular-track img {
     width: 55px;
     height: 55px;
