@@ -898,7 +898,7 @@ hr {
 
 /* popular */
 
-.popular-track {
+.tracks {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -920,11 +920,11 @@ hr {
     flex-wrap: wrap;
 }
 
-.track:nth-child(2n+1) {
+.popular-track:nth-child(2n+1) {
     margin-right: 50px;
 }
 
-.track {
+.popular-track {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -933,12 +933,12 @@ hr {
     width: 545px;
 }
 
-.track img {
+.popular-track img {
     width: 55px;
     height: 55px;
 }
 
-.track span {
+.popular-track span {
     margin-right: 0;
     margin-left: auto;
 }
