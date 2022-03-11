@@ -811,6 +811,7 @@ hr {
 @media (max-width: 415px) {
     .footer-bottom {
         flex-direction: column;
+        align-items: flex-start;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -822,6 +823,13 @@ hr {
     font-size: 16px;
     line-height: 24px;
     text-decoration: none;
+}
+
+@media (max-width: 415px) {
+    .footer-bottom a {
+        width: 100%;
+        margin-bottom: 16px;
+    }
 }
 
 
