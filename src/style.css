@@ -705,6 +705,13 @@ button {
     padding-bottom: 74px;
 }
 
+@media (max-width: 415px) {
+    .footer-top {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
 .footer-item {
     display: flex;
     flex-direction: column;
@@ -719,6 +726,14 @@ button {
 .footer-item p {
     font-size: 15px;
     line-height: 24px;
+}
+
+@media (max-width: 415px) {
+    .footer-item a,
+    .footer-bottom a,
+    .footer-item p {
+        font-size: 16px;
+    }
 }
 
 .footer-item > a,
@@ -742,6 +757,13 @@ button {
     margin-right: 24px;
 }
 
+@media (max-width: 415px) {
+    .subscription img {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
 .footer h2 {
     font-size: 18px;
     line-height: 27px;
@@ -750,6 +772,17 @@ button {
     width: 270px;
     margin-bottom: 15px;
     text-align: start;
+}
+
+@media (max-width: 415px) {
+    .footer h2 {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .first-h2 {
+        margin-top: 14px;
+    }
 }
 
 hr {
