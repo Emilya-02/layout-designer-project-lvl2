@@ -938,7 +938,7 @@ hr {
     padding-right: 20px;
 }
 
-.track-container {
+.container {
     padding-top: 100px;
 }
 
@@ -1043,12 +1043,15 @@ hr {
     line-height: 19.2px;
 }
 
-/* discography */
+/* discography and similar */
 
 .discography,
 .similar {
-    padding-top: 100px;
-    padding-left: 120px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .discography-flex,
@@ -1079,77 +1082,16 @@ hr {
     line-height: 27px;
     font-weight: bold;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .discography-info p,
 .similar-info p {
     font-size: 16px;
     margin-bottom: 0;
-}
-
-.similar {
-    padding-bottom: 100px;
+    margin-top: 0;
 }
 
 .similar-info {
     text-align: center;
-}
-
-@media (max-width: 415px) {    
-    /* 
-    .footer-top {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    
-    .footer-bottom {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .footer-bottom a {
-        margin-bottom: 16px;
-    }
-
-    .footer-item a:last-child {
-        margin-bottom: 30px;
-    }
-
-    .footer-item:first-child h2 {
-        margin-top: 62px;
-    }
-
-    .description-2 {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .popular-track {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .track:nth-child(2n+1) {
-        margin-right: 0;
-    }
-
-    .discography,
-    .similar {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .discography-item,
-    .similar-item {
-        width: 137px;
-    }
-
-    .discography img,
-    .similar img {
-        width: 137px;
-        height: 137px;
-    } */
 }
