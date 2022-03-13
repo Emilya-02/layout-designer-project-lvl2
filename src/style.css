@@ -6,6 +6,7 @@ body {
     color: #cacaca;
     background-color: #08020d;
     min-width: 100%;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -75,7 +76,7 @@ p {
     top: 25px;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     font-size: 11px;
     font-family: Roboto ,serif;
@@ -95,10 +96,6 @@ p {
         padding-left: 20px;
         padding-right: 20px;
     }
-}
-
-.menu {
-    flex-grow: 1;
 }
 
 .menu ul {
@@ -124,7 +121,7 @@ p {
 }
 
 .menu li:last-child {
-    margin-right: 0;
+    margin-right: 451px;
 }
 
 @media (max-width: 415px) {
@@ -848,13 +845,8 @@ hr {
 
 /* description-2 */
 
-.description-2 {
-    background: url(./images/Morten-Harket.png);
-    background-position: center;
-    background-size: cover;
-    padding-left: 120px;
-    padding-top: 200px;
-    padding-bottom: 200px;
+.back-2 {
+    background-image: url(./images/Morten-Harket.png);
 }
 
 .flex-button {
