@@ -127,7 +127,7 @@ p {
 @media (max-width: 415px) {
     .menu li {
         margin-right: 0;
-        min-width: 82px;
+        width: 84px;
     }
     
     .menu li:first-child {
