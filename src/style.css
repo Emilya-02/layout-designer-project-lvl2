@@ -850,6 +850,11 @@ hr {
     background-image: url(./images/Morten-Harket.png);
 }
 
+.back-2 h1,
+.back-2 p {
+    text-align: left;
+}
+
 .flex-button {
     display: flex;
     flex-wrap: wrap;
@@ -866,6 +871,7 @@ hr {
     border: none;
     width: 200px;
     padding: 20px 30px;
+    font-size: 12.8px;
 }
 
 .flex-button .btn:first-child {
@@ -878,9 +884,17 @@ hr {
     background: #95390C;  
 }
 
+@media (max-width: 415px) {
+
+    .flex-button .btn:last-child {
+        margin-top: 0;
+    }
+}
+
 .flex-button img {
     width: 20px;
     filter:brightness(0) invert(1);
+    margin-right: 16px;
 }
 
 .flex-button p {
@@ -927,7 +941,6 @@ hr {
 
 .artist h2 {
     text-align: left;
-    margin-bottom: 23px;
 }
 
 .flex-track {
