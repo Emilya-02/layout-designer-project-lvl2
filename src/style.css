@@ -844,6 +844,12 @@ hr {
 }
 
 
+.artist h2 {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 48px;
+}
+
 /* description-2 */
 
 .back-2 {
@@ -958,10 +964,6 @@ hr {
     grid-row-end: 2;
 }
 
-.artist h2 {
-    text-align: left;
-}
-
 .flex-track {
     display: flex;
     flex-wrap: wrap;
@@ -989,7 +991,7 @@ hr {
     height: 55px;
 }
 
-.popular-track span {
+.popular-track .time {
     margin-right: 0;
     margin-left: auto;
 }
@@ -1007,11 +1009,16 @@ hr {
     line-height: 19.2px;
     text-transform: uppercase;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .track-info p {
     margin-bottom: 0;
+    margin-top: 0;
+    line-height: 19.2px;
 }
+
+/* discography */
 
 .discography,
 .similar {
