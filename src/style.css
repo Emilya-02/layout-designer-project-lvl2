@@ -1066,6 +1066,11 @@ hr {
     margin-top: 25px;
 }
 
+.discography h2,
+.similar h2 {
+    margin-bottom: 23px;
+}
+
 .discography-item:nth-child(4n+4),
 .similar-item:nth-child(4n+4) {
     margin-right: 0;
