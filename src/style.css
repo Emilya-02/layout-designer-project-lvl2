@@ -964,6 +964,25 @@ hr {
     grid-row-end: 2;
 }
 
+@media (max-width: 415px) {
+    .grid-container {
+        grid-template-rows: 227.5px 227.5px;
+        grid-template-columns: 374px;
+    }
+
+    .left-tracks {
+        margin-bottom: 12.5px;
+    }
+
+    .right-tracks {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        margin-top: 12.5px;
+    }
+}
+
 .flex-track {
     display: flex;
     flex-wrap: wrap;
@@ -980,6 +999,12 @@ hr {
     margin-top: 25px;
     height: 55px;
     width: 545px;
+}
+
+@media (max-width: 415px) {
+    .popular-track {
+        width: 374px;
+    }
 }
 
 .mt-0 {
