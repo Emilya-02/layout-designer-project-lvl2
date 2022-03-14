@@ -1102,6 +1102,13 @@ hr {
     margin-top: 0;
 }
 
+@media (max-width: 415px) {
+    .discography-info h3,
+    .similar-info h3 {
+        margin-top: 4px;
+    }
+}
+
 .discography-info p,
 .similar-info p {
     font-size: 16px;
