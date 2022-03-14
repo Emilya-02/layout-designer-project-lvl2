@@ -1074,7 +1074,8 @@ hr {
 
     .discography-item img,
     .similar-item img {
-        max-width: 137px;
+        width: 137px;
+        height: 137px;
     }
 }
 
@@ -1090,7 +1091,7 @@ hr {
 
 .discography-info,
 .similar-info {
-    margin-top: 8px;
+    margin-top: 18px;
 }
 
 .discography-info h3,
@@ -1100,13 +1101,6 @@ hr {
     font-weight: bold;
     margin-bottom: 0;
     margin-top: 0;
-}
-
-@media (max-width: 415px) {
-    .discography-info h3,
-    .similar-info h3 {
-        margin-top: 4px;
-    }
 }
 
 .discography-info p,
