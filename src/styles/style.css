@@ -420,6 +420,7 @@ button {
     margin-bottom: 200px;
     margin-top: 0;
     margin-right: 4px;
+    text-transform: uppercase;
 }
 
 @media (max-width: 415px) {
