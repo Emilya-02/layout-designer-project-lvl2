@@ -1066,6 +1066,18 @@ hr {
     margin-top: 25px;
 }
 
+@media (max-width: 415px) {
+    .discography-item,
+    .similar-item {
+        max-width: 137px;
+    }
+
+    .discography-item img,
+    .similar-item img {
+        max-width: 137px;
+    }
+}
+
 .discography h2,
 .similar h2 {
     margin-bottom: 23px;
