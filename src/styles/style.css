@@ -230,6 +230,10 @@ input::placeholder {
         margin-top: 0;
         margin-bottom: 0;
     }
+
+    .mt-50 {
+        margin-top: 0;
+    }
 }
 
 .flex-container {
