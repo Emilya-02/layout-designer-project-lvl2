@@ -199,7 +199,7 @@ input::placeholder {
 
 @media (max-width: 415px) {
     .description {
-        padding-top: 250px;
+        padding-top: 200px;
         padding-left: 20px;
         padding-right: 20px;
         max-height: 900px;
@@ -213,7 +213,7 @@ input::placeholder {
 }
 
 .main-container h1 {
-    margin-top: 0;
+    margin-top: 50px;
     margin-bottom: 0;
 }
 
