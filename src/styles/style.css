@@ -213,7 +213,14 @@ input::placeholder {
 }
 
 .main-container h1 {
+    margin-top: 0;
     margin-bottom: 0;
+}
+
+@media (max-width: 415px) {
+    .main-container h1 {
+        margin-top: 50px;
+    }
 }
 
 .mt-50 {
