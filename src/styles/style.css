@@ -869,11 +869,11 @@ hr {
     /* padding-top: 245px; */
 }
 
-@media (max-width: 415px) {
+/* @media (max-width: 415px) {
     .back-2 {
         padding-top: 225px;
     }
-}
+} */
 
 .back-2 h1,
 .back-2 p {
@@ -882,6 +882,7 @@ hr {
 
 @media (max-width: 415px) {
     .back-2 h1 {
+        margin-top: 25px;
         margin-bottom: 16px;
     }
 }
